@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="2" verbose="5">
+	<test name="Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="http://leaftaps.com/opentaps" />		
+		<classes>
+			<class name="tests.TC001_Login" />
+			<class name="tests.TC002_CreateLead" />
+			<class name="tests.TC003_EditLead" />
+		</classes>
+	</test> 
+</suite>

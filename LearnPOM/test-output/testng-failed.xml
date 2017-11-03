@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [TestSuite]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://leaftaps.com/opentaps"/>
+  <test name="Test(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://leaftaps.com/opentaps"/>
+    <classes>
+      <class name="tests.TC001_Login">
+        <methods>
+          <include name="loginPage"/>
+          <include name="beforeClass"/>
+          <include name="login"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- tests.TC001_Login -->
+      <class name="tests.TC002_CreateLead">
+        <methods>
+          <include name="createLead"/>
+          <include name="beforeClass"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.TC002_CreateLead -->
+      <class name="tests.TC003_EditLead">
+        <methods>
+          <include name="createLead"/>
+        </methods>
+      </class> <!-- tests.TC003_EditLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

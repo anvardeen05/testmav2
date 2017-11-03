@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="149556" started-at="2017-11-02T07:16:04Z" finished-at="2017-11-02T07:18:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="149556" started-at="2017-11-02T07:16:04Z" finished-at="2017-11-02T07:18:34Z">
+      <class name="tests.TC003_EditLead">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-11-02T12:47:38Z" finished-at="2017-11-02T12:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="login" is-config="true" duration-ms="7215" started-at="2017-11-02T12:47:38Z" finished-at="2017-11-02T12:47:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="createLead" duration-ms="18835" started-at="2017-11-02T12:47:45Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Capgemini]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Anvar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="close" is-config="true" duration-ms="2339" started-at="2017-11-02T12:48:04Z" finished-at="2017-11-02T12:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="login" is-config="true" duration-ms="7314" started-at="2017-11-02T12:48:06Z" finished-at="2017-11-02T12:48:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="createLead" duration-ms="17658" started-at="2017-11-02T12:48:14Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:48:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="close" is-config="true" duration-ms="2485" started-at="2017-11-02T12:48:31Z" finished-at="2017-11-02T12:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:48:34Z" finished-at="2017-11-02T12:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.TC003_EditLead -->
+      <class name="tests.TC001_Login">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.TC001_Login@153acfe]" name="beforeSuite" is-config="true" duration-ms="937" started-at="2017-11-02T12:46:03Z" finished-at="2017-11-02T12:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC001_Login@153acfe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:46:04Z" finished-at="2017-11-02T12:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="login" is-config="true" duration-ms="21932" started-at="2017-11-02T12:46:05Z" finished-at="2017-11-02T12:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="loginPage" duration-ms="7088" started-at="2017-11-02T12:46:27Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:46:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_Login@153acfe]" name="close" is-config="true" duration-ms="498" started-at="2017-11-02T12:46:34Z" finished-at="2017-11-02T12:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="login" is-config="true" duration-ms="8675" started-at="2017-11-02T12:46:35Z" finished-at="2017-11-02T12:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="loginPage" duration-ms="3119" started-at="2017-11-02T12:46:44Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsfdsf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_Login@153acfe]" name="close" is-config="true" duration-ms="223" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC001_Login@153acfe]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TC001_Login@153acfe]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-11-02T12:48:34Z" finished-at="2017-11-02T12:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.TC001_Login@153acfe]" name="afterSuite" is-config="true" duration-ms="1373" started-at="2017-11-02T12:48:34Z" finished-at="2017-11-02T12:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TC001_Login -->
+      <class name="tests.TC002_CreateLead">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="login" is-config="true" duration-ms="7470" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="createLead" duration-ms="16715" started-at="2017-11-02T12:46:54Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:47:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Capgemini]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Anvar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[K]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="close" is-config="true" duration-ms="2800" started-at="2017-11-02T12:47:11Z" finished-at="2017-11-02T12:47:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="login" is-config="true" duration-ms="7668" started-at="2017-11-02T12:47:14Z" finished-at="2017-11-02T12:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="createLead" duration-ms="13912" started-at="2017-11-02T12:47:22Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:47:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="close" is-config="true" duration-ms="2354" started-at="2017-11-02T12:47:36Z" finished-at="2017-11-02T12:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:47:38Z" finished-at="2017-11-02T12:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.TC002_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

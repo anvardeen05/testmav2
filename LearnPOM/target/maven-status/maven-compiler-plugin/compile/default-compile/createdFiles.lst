@@ -1,0 +1,16 @@
+pages\MyHomePage.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\EditLeadPage.class
+pages\LeadsPage.class
+tests\TC001_Login.class
+wrappers\LeaftapsWrappers.class
+wrappers\Wrappers.class
+pages\MyLeadsPage.class
+tests\TC003_EditLead.class
+tests\TC002_CreateLead.class
+utils\DataInputProvider.class
+utils\Reporter.class
+pages\CreateLeadPage.class
+pages\ViewLeadPage.class
+wrappers\GenericWrappers.class
