@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="149556" started-at="2017-11-02T07:16:04Z" finished-at="2017-11-02T07:18:34Z">
+  <suite name="TestSuite" duration-ms="212321" started-at="2017-11-03T15:00:34Z" finished-at="2017-11-03T15:04:06Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="149556" started-at="2017-11-02T07:16:04Z" finished-at="2017-11-02T07:18:34Z">
+    <test name="Test" duration-ms="212321" started-at="2017-11-03T15:00:34Z" finished-at="2017-11-03T15:04:06Z">
       <class name="tests.TC003_EditLead">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-11-02T12:47:38Z" finished-at="2017-11-02T12:47:38Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-11-03T20:32:16Z" finished-at="2017-11-03T20:32:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="login" is-config="true" duration-ms="7215" started-at="2017-11-02T12:47:38Z" finished-at="2017-11-02T12:47:45Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="login" is-config="true" duration-ms="14652" started-at="2017-11-03T20:32:16Z" finished-at="2017-11-03T20:32:31Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="createLead" duration-ms="18835" started-at="2017-11-02T12:47:45Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:48:04Z">
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="createLead" duration-ms="21947" started-at="2017-11-03T20:32:31Z" data-provider="fetchExcelData" finished-at="2017-11-03T20:32:52Z">
           <params>
             <param index="0">
               <value>
@@ -58,11 +58,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="close" is-config="true" duration-ms="2339" started-at="2017-11-02T12:48:04Z" finished-at="2017-11-02T12:48:06Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="close" is-config="true" duration-ms="2477" started-at="2017-11-03T20:32:52Z" finished-at="2017-11-03T20:32:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="login" is-config="true" duration-ms="7314" started-at="2017-11-02T12:48:06Z" finished-at="2017-11-02T12:48:14Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="login" is-config="true" duration-ms="14308" started-at="2017-11-03T20:32:55Z" finished-at="2017-11-03T20:33:09Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="createLead" duration-ms="17658" started-at="2017-11-02T12:48:14Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:48:31Z">
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="createLead" duration-ms="44330" started-at="2017-11-03T20:33:09Z" data-provider="fetchExcelData" finished-at="2017-11-03T20:33:54Z">
           <params>
             <param index="0">
               <value>
@@ -109,25 +109,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="close" is-config="true" duration-ms="2485" started-at="2017-11-02T12:48:31Z" finished-at="2017-11-02T12:48:34Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="close" is-config="true" duration-ms="11763" started-at="2017-11-03T20:33:54Z" finished-at="2017-11-03T20:34:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC003_EditLead@2d45ba]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:48:34Z" finished-at="2017-11-02T12:48:34Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC003_EditLead@feb3fa]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-11-03T20:34:06Z" finished-at="2017-11-03T20:34:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- tests.TC003_EditLead -->
       <class name="tests.TC001_Login">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.TC001_Login@153acfe]" name="beforeSuite" is-config="true" duration-ms="937" started-at="2017-11-02T12:46:03Z" finished-at="2017-11-02T12:46:04Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.TC001_Login@e2cbe0]" name="beforeSuite" is-config="true" duration-ms="1320" started-at="2017-11-03T20:30:32Z" finished-at="2017-11-03T20:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC001_Login@153acfe]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:46:04Z" finished-at="2017-11-02T12:46:04Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC001_Login@e2cbe0]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-11-03T20:30:34Z" finished-at="2017-11-03T20:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="login" is-config="true" duration-ms="21932" started-at="2017-11-02T12:46:05Z" finished-at="2017-11-02T12:46:27Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@e2cbe0]" name="login" is-config="true" duration-ms="25748" started-at="2017-11-03T20:30:35Z" finished-at="2017-11-03T20:31:01Z">
           <params>
             <param index="0">
               <value>
@@ -143,7 +143,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="loginPage" duration-ms="7088" started-at="2017-11-02T12:46:27Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:46:34Z">
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@e2cbe0]" name="loginPage" duration-ms="4168" started-at="2017-11-03T20:31:01Z" data-provider="fetchExcelData" finished-at="2017-11-03T20:31:05Z">
           <params>
             <param index="0">
               <value>
@@ -164,11 +164,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_Login@153acfe]" name="close" is-config="true" duration-ms="498" started-at="2017-11-02T12:46:34Z" finished-at="2017-11-02T12:46:35Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_Login@e2cbe0]" name="close" is-config="true" duration-ms="853" started-at="2017-11-03T20:31:05Z" finished-at="2017-11-03T20:31:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="login" is-config="true" duration-ms="8675" started-at="2017-11-02T12:46:35Z" finished-at="2017-11-02T12:46:44Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@e2cbe0]" name="login" is-config="true" duration-ms="12648" started-at="2017-11-03T20:31:06Z" finished-at="2017-11-03T20:31:19Z">
           <params>
             <param index="0">
               <value>
@@ -184,7 +184,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@153acfe]" name="loginPage" duration-ms="3119" started-at="2017-11-02T12:46:44Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:46:47Z">
+        <test-method status="PASS" signature="loginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_Login@e2cbe0]" name="loginPage" duration-ms="3267" started-at="2017-11-03T20:31:19Z" data-provider="fetchExcelData" finished-at="2017-11-03T20:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -205,29 +205,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_Login@153acfe]" name="close" is-config="true" duration-ms="223" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:47Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_Login@e2cbe0]" name="close" is-config="true" duration-ms="377" started-at="2017-11-03T20:31:22Z" finished-at="2017-11-03T20:31:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC001_Login@153acfe]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:47Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC001_Login@e2cbe0]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-03T20:31:22Z" finished-at="2017-11-03T20:31:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TC001_Login@153acfe]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-11-02T12:48:34Z" finished-at="2017-11-02T12:48:34Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.TC001_Login@e2cbe0]" name="afterTest" is-config="true" duration-ms="78" started-at="2017-11-03T20:34:06Z" finished-at="2017-11-03T20:34:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.TC001_Login@153acfe]" name="afterSuite" is-config="true" duration-ms="1373" started-at="2017-11-02T12:48:34Z" finished-at="2017-11-02T12:48:36Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.TC001_Login@e2cbe0]" name="afterSuite" is-config="true" duration-ms="7051" started-at="2017-11-03T20:34:22Z" finished-at="2017-11-03T20:34:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- tests.TC001_Login -->
       <class name="tests.TC002_CreateLead">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:47Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-11-03T20:31:22Z" finished-at="2017-11-03T20:31:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="login" is-config="true" duration-ms="7470" started-at="2017-11-02T12:46:47Z" finished-at="2017-11-02T12:46:54Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="login" is-config="true" duration-ms="8511" started-at="2017-11-03T20:31:22Z" finished-at="2017-11-03T20:31:31Z">
           <params>
             <param index="0">
               <value>
@@ -243,7 +243,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="createLead" duration-ms="16715" started-at="2017-11-02T12:46:54Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:47:11Z">
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="createLead" duration-ms="17818" started-at="2017-11-03T20:31:31Z" data-provider="fetchExcelData" finished-at="2017-11-03T20:31:49Z">
           <params>
             <param index="0">
               <value>
@@ -274,11 +274,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="close" is-config="true" duration-ms="2800" started-at="2017-11-02T12:47:11Z" finished-at="2017-11-02T12:47:14Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="close" is-config="true" duration-ms="2409" started-at="2017-11-03T20:31:49Z" finished-at="2017-11-03T20:31:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="login" is-config="true" duration-ms="7668" started-at="2017-11-02T12:47:14Z" finished-at="2017-11-02T12:47:22Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="login" is-config="true" duration-ms="8365" started-at="2017-11-03T20:31:51Z" finished-at="2017-11-03T20:32:00Z">
           <params>
             <param index="0">
               <value>
@@ -294,7 +294,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@16905e]" name="createLead" duration-ms="13912" started-at="2017-11-02T12:47:22Z" data-provider="fetchExcelData" finished-at="2017-11-02T12:47:36Z">
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="createLead" duration-ms="15607" started-at="2017-11-03T20:32:00Z" data-provider="fetchExcelData" finished-at="2017-11-03T20:32:15Z">
           <params>
             <param index="0">
               <value>
@@ -325,11 +325,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createLead -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="close" is-config="true" duration-ms="2354" started-at="2017-11-02T12:47:36Z" finished-at="2017-11-02T12:47:38Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="close" is-config="true" duration-ms="606" started-at="2017-11-03T20:32:15Z" finished-at="2017-11-03T20:32:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC002_CreateLead@16905e]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-02T12:47:38Z" finished-at="2017-11-02T12:47:38Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.TC002_CreateLead@be2bc2]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-11-03T20:32:16Z" finished-at="2017-11-03T20:32:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
